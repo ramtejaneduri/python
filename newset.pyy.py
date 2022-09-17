@@ -1,0 +1,12 @@
+myset={1,2,3,4,4,5}
+print(myset)
+print(len(myset))
+myset.add("ram")
+print(myset)
+myset.update({"ravi","sai"})
+print(myset)
+print(len(myset))
+myset.clear()
+print(myset)
+myset.discard("ram")
+print(myset)
